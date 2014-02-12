@@ -1,0 +1,77 @@
+\documentclass[dvipdfmx]{beamer}
+\AtBeginDvi{\special{pdf:tounicode 90ms-RKSJ-UCS2}}
+\usetheme{AIIT0}
+\setbeamertemplate{navigation symbols}{}
+\usefonttheme{professionalfonts}
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\try}{$\clubsuit$}
+\newcommand{\learn}{$\diamondsuit$}
+ 
+\title[AIIT用beamerテンプレート]{AIIT用beamerテンプレート}
+\subtitle[タイプ0]{タイプ0}
+\author{上田隆一}
+\institute[産技大]{産業技術大学院大学}
+\date{\today}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+\mathversion{bold} 
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertsubsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\begin{document}
+%タイトルスライド
+\frame{\titlepage}
+%アウトライン
+\section*{Outline}
+%目次
+\begin{frame}
+  \tableofcontents
+\end{frame}
+%以降、内容
+\section{あいうえおの章}
+
+\begin{frame}
+\frametitle{あいうえお}
+\begin{itemize}
+	\item かきくけこ
+\end{itemize}
+\end{frame}
+
+\section{書き方あれこれ}
+
+\begin{frame}[containsverbatim]%verbatim,verbを使いたければcontainsverbatimを書く
+\frametitle{コードの書き方}
+\begin{footnotesize}
+\begin{block}{コード}
+\begin{verbatim}
+$ echo aho
+aho
+\end{verbatim}
+\end{block}
+\end{footnotesize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{数式の書き方}
+
+$e = mc^2$
+
+\end{frame}
+
+\end{document}

@@ -1,3 +1,7 @@
-/TYPE0/template.aux
-/TYPE0/template.log
-/TYPE0/template.out
+*.aux
+*.dvi
+*.log
+*.nav
+*.out
+*.snm
+*.toc

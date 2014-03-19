@@ -1,19 +1,24 @@
 \ProvidesPackage{beamerthemeAIIT0}[2014/2/12 v0.1 for beamer 3.26]
 %is a modification from this file.
 %\ProvidesPackage{beamerthemeTDU}[2009/11/21 v0.1 for beamer 3.07]
+
+% See:
+% Beamerスライドのカスタマイズ - -- pLaTeX+dvips -- - guide4beamer.pdf
+%  - http://ayapin-film.sakura.ne.jp/LaTeX/Slides/guide4beamer.pdf
+
 \IfFileExists{pst-grad}{\RequirePackage{pst-grad}}{\RequirePackage{gradient}}
-\mode<presentation>
 \usecolortheme{AIIT0}
 \useinnertheme[shadow]{rounded}
 \newcommand{\headshadeb@r}[1]{%
-\psframe[linestyle=none,linewidth=0pt,fillstyle=gradient,gradangle=0,
-gradend=#1!60!black,gradbegin=#1!50!white,gradmidpoint=1.0]
-(-1.0,-0.8)(12,0.05)%
+%% \psframe[linestyle=none,linewidth=0pt,fillstyle=gradient,gradangle=0,
+%% gradend=#1!60!black,gradbegin=#1!50!white,gradmidpoint=1.0]
+%% (-1.0,-0.8)(12,0.05)%
 \rput(11.14,-0.65){\includegraphics[scale=0.25]{AIITlogo.eps}}}
 \newcommand{\footshadeb@r}[1]{%
-\psframe[linestyle=none,linewidth=0pt,fillstyle=gradient,gradangle=0,
-gradend=#1,gradbegin=#1!50!black,gradmidpoint=0.5]
-(-1.0,-0.0)(12,0.35)}
+%% \psframe[linestyle=none,linewidth=0pt,fillstyle=gradient,gradangle=0,
+%% gradend=#1,gradbegin=#1!50!black,gradmidpoint=0.5]
+%% (-1.0,-0.0)(12,0.35)
+}
 \setbeamertemplate{headline}[text line]{\headshadeb@r{structure}}
 \setbeamertemplate{footline}[text line]{%
 \footshadeb@r{structure}%

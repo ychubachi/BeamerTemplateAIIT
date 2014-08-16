@@ -1,0 +1,163 @@
+% [[http://www-an.acs.i.kyoto-u.ac.jp/~fujiwara/tex/beamer.html][Beamer を使ってみる]]
+
+\documentclass{beamer}
+
+\usepackage{zxjatype}
+\usepackage[ipa]{zxjafont}
+
+\usetheme{AIIT0}
+\author{産業技術大学院大学 \linebreak 中鉢欣秀}
+\date{2014-02-06}
+\title{私がPBL（Project Based Learning）で学んだこと hoge}
+\logo{\includegraphics[width=2cm]{AIITlogo.eps}}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{目次}
+  \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{目次}
+\tableofcontents
+\end{frame}
+
+\section{はじめに}
+\label{sec-1}
+\begin{frame}[label=sec-1-1]{自己紹介}
+\begin{center}
+\begin{tabular}{lll}
+1991年 & 4月 & 慶應義塾大学環境情報学部 入学\\
+1995年 & \alert{10月} & 同大大学院 政策・メディア研究科 修士課程 入学\\
+1997年 & 10月 & 同大大学院 政策・メディア研究科 博士課程 入学\\
+ &  & 合資会社ニューメリック設立，*社長就任*\\
+2004年 & 10月 & 慶應義塾大学政策メディア研究科後期博士課程卒\\
+2005年 & 4月 & 独立行政法人科学技術振興機構 PD級研究員\\
+ &  & （長岡技術科学大学）\\
+2006年 & 4月 & 産業技術大学院大学 産業技術研究科\\
+ &  & 情報アーキテクチャ専攻 准教授\\
+\end{tabular}
+\end{center}
+\end{frame}
+\begin{frame}[label=sec-1-2]{河合先生からの依頼事項}
+\begin{block}{大学院特別講義}
+PBLによるソフトウェア工学教育
+\end{block}
+\begin{block}{話してほしい内容}
+CSの基本は、全員、学部時代にたたきこまれているのですが、まっとうな
+（＝工業的な）ソフトウェア開発を行なったことのある学生は少数派です。
+
+ですので、例えば、複数人のプロジェクトとして、ソフトウェアをコスト等各
+種制限のあるなかで作成することのむずかしさと、その実際の対策、そして、
+そうしたことを貴大学院のPBLのなかでは、どのように教えていらっしゃる
+のかを、できるだけ具体的にご講演いただけるとうれしく思います。
+\end{block}
+\end{frame}
+\section{合資会社ニューメリック}
+\label{sec-2}
+\begin{frame}[label=sec-2-1]{ニューメリック誕生の背景}
+\begin{block}{慶應義塾大学大岩研究室}
+ソフトウエア工学や、技術者教育に関心のある学生が集った研究室。
+愛称は「Creative Workspace: CreW」。
+\end{block}
+\begin{block}{1997年の状況}
+\begin{itemize}
+\item Windows 95が普及
+\item まだ、初期状態でインターネットは使えなかった
+\item ライブラリのインストールが必要
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label=sec-2-2]{アルバイトから会社設立へ}
+\begin{block}{ベンチャーブーム}
+\begin{itemize}
+\item 少しプログラムがかければ仕事はいくらでもあった
+\item 後輩が参加したベンチャーの仕事を手伝って面白かった
+\end{itemize}
+\end{block}
+\begin{block}{会社設立の理由}
+\begin{itemize}
+\item 「やってみたかった」から
+\item 後輩にそそのかされた・笑
+\end{itemize}
+\end{block}
+\begin{block}{会社をやって学んだこと}
+\begin{itemize}
+\item 実プロジェクトの経験
+\item 使える技術
+\item お金は簡単には儲からない
+\end{itemize}
+\end{block}
+\end{frame}
+\section{実プロジェクトの実例}
+\label{sec-3}
+\begin{frame}[label=sec-3-1]{AIIT SHOWCASEの構築}
+\begin{block}{プロジェクト成果物}
+\begin{itemize}
+\item \href{http://showcase.aiit.ac.jp/}{AIIT SHOWCASE}
+\item 2013-01-29 公開
+\end{itemize}
+\end{block}
+
+\begin{block}{開発のステップ}
+\begin{itemize}
+\item 妄想・企画・調査・分析の段階
+\item 説得・合意形成・理解・仲間集めの段階
+\item 具体化・実装・成長の段階
+\item 運用・手入れの段階
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{PBLとは？}
+\label{sec-4}
+\begin{frame}[label=sec-4-1]{PBLってなんだろう？}
+\begin{block}{PBLの流行}
+\begin{itemize}
+\item 慶應SFC「コラマネ」
+\begin{itemize}
+\item 現代GP
+\end{itemize}
+\item あちらこちらでPBL
+\begin{itemize}
+\item AIITでもPBL
+\end{itemize}
+\end{itemize}
+\end{block}
+\begin{block}{私が考えるPBL}
+\begin{itemize}
+\item PBLは創造の場
+\item PBLは教育の環境
+\item PBLは挑戦の機会
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}[label=sec-4-2]{PBLの限界と次のステップ}
+\begin{block}{PBLの限界}
+\begin{itemize}
+\item Money!
+\item Resource!
+\item Risk!
+\end{itemize}
+\end{block}
+\begin{block}{PBLのその先に}
+\begin{itemize}
+\item PBLは3回繰り返すべし！
+\begin{itemize}
+\item メンバー
+\item プロマネ（Scrum Master）
+\item クライアント（Product Owner）
+\end{itemize}
+\item 3回やったら外に飛び出すべし！
+\begin{itemize}
+\item PBLはやはり箱庭
+\end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+% Emacs 24.3.2 (Org mode 8.2.5h)
+\end{document}

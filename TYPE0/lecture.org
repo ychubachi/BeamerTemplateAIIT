@@ -12,7 +12,7 @@
 ** はじめに
 *** 1.1 自己紹介
 **** hoge
-**** hege
+**** SNSアカウント
 *** 1.2 授業の概要
 **** 授業の概要(1)
 - [[http://tex.stackexchange.com/questions/52900/entire-course-with-beamer][Entire course with beamer - TeX - LaTeX Stack Exchange]]

@@ -1,0 +1,95 @@
+#+STARTUP: latexpreview
+#+LATEX_CLASS: beamer_lecture
+#+OPTIONS: H:4 num:3 toc:nil
+#+BEAMER_THEME: Berkeley
+#+BEAMER_COLOR_THEME: spruce
+#+TITLE: 〇〇〇〇〇〇〇〇〇論 
+#+AUTHOR: 中鉢 欣秀 \\ yc@aiit.ac.jp
+#+DATE: 
+#+LATEX_HEADER: \institute[AIIT]{産業技術大学院大学(AIIT)}
+
+* ガイダンス
+** はじめに
+*** 1.1 自己紹介
+**** hoge
+**** hege
+*** 1.2 授業の概要
+**** 授業の概要(1)
+- [[http://tex.stackexchange.com/questions/52900/entire-course-with-beamer][Entire course with beamer - TeX - LaTeX Stack Exchange]]
+- [[http://ctan.megagod.net/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf][beameruserguide.pdf]]
+- 第1階層 -> 週
+- part -> section -> subsection -> frame -> block
+**** 授業の概要(2)
+- snthueoa
+- asnthueo
+**** 授業の概要(3)
+***** あああ
+- snthueoa
+***** あああ
+- asnthueo
+*** 1.3 前提条件
+**** ddd
+- sueoanth
+**** bsb
+- snthaueo
+** 学習目標
+*** 1.4 対象
+**** slide 1
+- [[http://tex.stackexchange.com/questions/52900/entire-course-with-beamer][Entire course with beamer - TeX - LaTeX Stack Exchange]]
+- [[http://ctan.megagod.net/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf][beameruserguide.pdf]]
+- snueoaht
+- sntueoa
+**** slide 2
+- snthueoa
+- asnthueo
+**** slide 3
+- snthueoa
+- asnthueo
+*** 1.5 目標2
+**** slide 1
+- [[http://tex.stackexchange.com/questions/52900/entire-course-with-beamer][Entire course with beamer - TeX - LaTeX Stack Exchange]]
+- [[http://ctan.megagod.net/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf][beameruserguide.pdf]]
+- snueoaht
+- sntueoa
+**** slide 2
+- snthueoa
+- asnthueo
+**** slide 3
+- snthueoa
+- asnthueo
+*** 1.6 目標3
+**** slide 1
+- [[http://tex.stackexchange.com/questions/52900/entire-course-with-beamer][Entire course with beamer - TeX - LaTeX Stack Exchange]]
+- [[http://ctan.megagod.net/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf][beameruserguide.pdf]]
+- snueoaht
+- sntueoa
+**** slide 2
+- snthueoa
+- asnthueo
+**** slide 3
+- snthueoa
+- asnthueo
+** 方法
+*** 1.7 講義
+**** snthueoa
+*** 1.8 課題
+**** usntheoa
+*** 1.9 成績評価
+**** snthueoa
+* 二回目の授業
+** オブジェクト指向モデリングの概要
+*** 2.1 モデリングとはこんなもので
+**** slide
+- あります
+- ありません
+*** 2.2 成績評価
+**** slide
+- 違う？
+- 違わない?
+** 様々なオブジェクト指向モデリングの手法
+*** 2.3 あなたは何をモデルにしますか
+**** slide
+- こんなかんじでモデリングします
+*** 2.4 成績評価
+**** slide
+- 全員4以上

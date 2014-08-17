@@ -5,10 +5,17 @@
 \usepackage{zxjatype}
 \usepackage[ipa]{zxjafont}
 
-\usetheme{AIIT0}
-\author{産業技術大学院大学 \linebreak 中鉢欣秀}
-\date{2014-02-06}
-\title{私がPBL（Project Based Learning）で学んだこと hoge}
+\mode<presentation>
+
+%\usetheme{AIIT0}
+\usetheme{Madrid}
+%\usecolortheme{dove} 
+
+\title[私がPBLで学んだこと]{私がPBL（Project Based Learning）で学んだこと}
+\subtitle{こんなにいっぱいある様々な知見}
+\author[中鉢欣秀]{中鉢欣秀 \\ \texttt{yc@aiit.ac.jp}}
+\institute{産業技術大学院大学}
+\date[2014-02-06]{平成26年2月6日}
 \logo{\includegraphics[width=2cm]{AIITlogo.eps}}
 
 \AtBeginSection[]
@@ -20,13 +27,50 @@
 
 \begin{document}
 
-\maketitle
+\begin{frame}[t]
+  \maketitle
+\end{frame}
 
-\begin{frame}{目次}
-\tableofcontents
+\part{第1部}
+
+\begin{frame}
+  \frametitle{目次}
+  \tableofcontents
 \end{frame}
 
 \section{はじめに}
+\subsection{1.1 授業の概要}
+
+\begin{frame}[t]
+\frametitle{15回分の授業用のスライドの枚数}
+\begin{enumerate}
+\item 45分で15枚 => 90分で30枚 => 10分で $30 \div 9$ => 3枚強
+\item 10分で3枚とする．90分で27枚．
+\item chapterが15こ，sectionが9こ（適宜subsectionを用いる），frameが3枚で完成
+\item org-modeでchapterの作り方は？
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{There Is No Largest Prime Number}
+\framesubtitle{The proof uses \textit{reductio ad absurdum}.}
+\begin{theorem}
+There is no largest prime number.
+\end{theorem}
+\begin{proof}
+\begin{enumerate}
+\item<1-> Suppose $p$ were the largest prime number.
+\item<2-> Let $q$ be the product of the first $p$ numbers.
+\item<3-> Then $q + 1$ is not divisible by any of them.
+\item<1-> But $q + 1$ is greater than $1$, thus divisible by some prime
+number not in the first $p$ numbers.\qedhere
+\end{enumerate}
+\end{proof}
+\uncover<4->{The proof used \textit{reductio ad absurdum}.}
+\end{frame}
+
+\subsection{1.2 自己紹介}
+
 \label{sec-1}
 \begin{frame}[label=sec-1-1]{自己紹介}
 \begin{center}
@@ -42,6 +86,9 @@
  &  & 情報アーキテクチャ専攻 准教授\\
 \end{tabular}
 \end{center}
+
+\subsection{1.3 前提条件}
+
 \end{frame}
 \begin{frame}[label=sec-1-2]{河合先生からの依頼事項}
 \begin{block}{大学院特別講義}
@@ -57,7 +104,11 @@ CSの基本は、全員、学部時代にたたきこまれているのですが
 のかを、できるだけ具体的にご講演いただけるとうれしく思います。
 \end{block}
 \end{frame}
-\section{合資会社ニューメリック}
+
+\section{学習目標}
+
+\subsection{1.4 この授業の目的}
+
 \label{sec-2}
 \begin{frame}[label=sec-2-1]{ニューメリック誕生の背景}
 \begin{block}{慶應義塾大学大岩研究室}
@@ -72,6 +123,9 @@ CSの基本は、全員、学部時代にたたきこまれているのですが
 \end{itemize}
 \end{block}
 \end{frame}
+
+\subsection{想定する学習者}
+
 \begin{frame}[label=sec-2-2]{アルバイトから会社設立へ}
 \begin{block}{ベンチャーブーム}
 \begin{itemize}
@@ -93,6 +147,17 @@ CSの基本は、全員、学部時代にたたきこまれているのですが
 \end{itemize}
 \end{block}
 \end{frame}
+
+\section{3.はじめに-2}
+\section{4.はじめに-3}
+\section{5.はじめに-4}
+\section{6.はじめに-5}
+\section{7.はじめに-6}
+\section{8.はじめに-7}
+\section{9.はじめに-7}
+
+\part{第2部}
+
 \section{実プロジェクトの実例}
 \label{sec-3}
 \begin{frame}[label=sec-3-1]{AIIT SHOWCASEの構築}
